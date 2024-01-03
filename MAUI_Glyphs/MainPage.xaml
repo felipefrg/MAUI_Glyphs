@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:font="clr-namespace:MAUIGlyphs"
+             x:Class="MAUIGlyphs.MainPage">
+
+    <FlexLayout
+        Wrap="Wrap"
+        JustifyContent="SpaceAround">
+
+        <!--Using static name-->
+        <Label FontFamily="icomoon"
+               Text="{x:Static font:GlyphName.Iconeaccordionaberto}"
+               FontSize="Large"/>
+
+        <Label FontFamily="icomoon"
+       Text="{x:Static font:GlyphName.Iconeaccordiondireita}"
+               FontSize="Medium" TextColor="Green"/>
+
+        <Label FontFamily="icomoon"
+        Text="{x:Static font:GlyphName.Iconecartaovirtual}"
+               FontSize="30" 
+               TextColor="Red"/>
+
+        <Label FontFamily="icomoon"
+        Text="{x:Static font:GlyphName.Iconeinfo}"/>
+        <!--Using static name-->
+
+        <!--Using string name-->
+        <Label FontFamily="icomoon"
+        Text="&#xe908;"
+        FontSize="Header"/>
+
+        <Label FontFamily="icomoon"
+        Text="&#xe910;"/>
+        <!--Using string name-->
+
+    </FlexLayout>
+
+</ContentPage>
