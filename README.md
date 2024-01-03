@@ -26,3 +26,7 @@ Go to MauiProgram.cs and add your ttf file and an alias for that in the builder,
 ## Third step
 Use your custom font in the label specifying FontFamily property
 ![App Screenshot](https://raw.githubusercontent.com/felipefrg/MAUI_Glyphs/main/sc/label.png)
+
+## Result
+![App Screenshot](https://raw.githubusercontent.com/felipefrg/MAUI_Glyphs/main/sc/result.png)
+
